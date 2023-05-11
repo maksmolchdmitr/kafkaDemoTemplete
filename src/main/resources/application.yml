@@ -1,2 +1,7 @@
 kafka:
+  bootstrapServers: "localhost:9092"
   topicName: "someTopicName"
+spring:
+  kafka:
+    consumer:
+      group-id: app.1
